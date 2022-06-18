@@ -12,6 +12,10 @@ measureDoingSomething();
  ab.forEach(function callback(v) {
   console.log(v);
 });
+
+ab.forEach(function callback(value, index) {
+  console.log(`${index}: ${value}`);
+});
 -------------------------------------------
 
 function delay() {
