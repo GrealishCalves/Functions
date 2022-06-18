@@ -6,3 +6,9 @@ const measureDoingSomething = () => {
   console.timeEnd('doSomething()');
 };
 measureDoingSomething();
+
+
+-------------------------------------------
+ ab.forEach(function callback(v) {
+  console.log(v);
+});
